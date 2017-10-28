@@ -1,0 +1,20 @@
+{
+    "name": "parser/wrapper",
+    "description": "Wrapper for PHPQuery",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Volovyk",
+            "email": "mc_sharingan@mail.ru"
+        }
+    ],
+    "require": {
+        "electrolinux/phpquery": "^0.9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Parse\\": "src"
+        }
+    }
+}
